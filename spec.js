@@ -100,10 +100,7 @@ var spec =
                         }
                     },
                     403: {                                    
-                      description: "Login unsuccessful because the email/username is not exist in the database", 
-                    },
-                    403: {                                    
-                      description: "Login unsuccessful because the credestial is incorrect", 
+                      description: "Login unsuccessful because the email/username is not exist in the database or the credestial is incorrect"
                     }
                 },
                 security: [
